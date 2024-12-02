@@ -1,0 +1,35 @@
+.navebar{
+    height: 80px;
+    width: 100vph;
+    background-color:rgb(243, 243, 11);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: linear-gradient(0.45turn, #fbfdfd, #3cf674);
+    
+}
+.navebar h1{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.nave-ul{
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    font-size: large;
+}
+.nave-ul li{
+    cursor: pointer;
+    transition: color 0.8s ease;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.nave-ul li:hover{
+    color: #f3f3f3;
+    transform: scale(1.8);
+    transition: transform 0.8s ease;
+}
