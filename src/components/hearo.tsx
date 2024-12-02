@@ -14,7 +14,7 @@ function Hearo() {
       <main className="main-hearo">
          {/* 1st box */}
          <div className="hearo-content">
-         <h1>Hello  I am Hasnain Abass</h1>
+         <h1>Hello !  I am Hasnain Abass</h1>
             <p>
                <span>Explore Now ....................!</span>
 
